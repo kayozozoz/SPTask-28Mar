@@ -4,7 +4,7 @@ Running the program:
 
 - To set up the dictionary, go to Task.java, line 159
   - "FileInputStream in = new FileInputStream("F:\\Projects\\SPTask\\src\\WordsRTF.rtf");"
-  - Update the location of the dictionary file, WordsRTF.rtf, on your computer
+  - Update the location of the dictionary file, WordsRTF.rtf, on your computer (In this case, any rtf file can be used for dictionary)
   - Save and run
 
 - Input consists of a question number followed by an input data. For example,
@@ -16,3 +16,11 @@ Running the program:
 - Output will be displayed accordingly
 
 - To end the program, simply enter "0 0"
+
+Why preprocess?
+- Ensures quick retrieval
+
+- Three data structures in total
+  - One hashmap with number as key
+  - One hashmap with char as key
+  - One hashset to store all dictionary words
