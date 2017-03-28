@@ -17,6 +17,9 @@ Running the program:
 
 - To end the program, simply enter "0 0"
 
+Running Junit Tests:
+- Run TaskTest.java as junit test
+
 Why preprocess?
 - Ensures quick retrieval
 
